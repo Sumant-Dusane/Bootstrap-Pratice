@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/11bfc88179.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="main.css">
+    <title>Intro Bootstrap</title>
+</head>
+
+
+<header>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand ms-5" href="#"> <img src="assets/Be Safe Logo white.png" class="logo" alt=""></a>
+
+            <button onclick="this.blur()" class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span><i class="fas fa-bars text-white "></i></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-5 ms-auto mb-2 mb-lg-0 text-center">
+                    <li class="nav-item">
+                        <a class="text-light nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="text-light nav-link" href="#">Download</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="text-light nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="text-light nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<body>
+
+
+    <div class="container-fluid main">
+        <div class="row">
+
+            <div class="col-lg-4 col-md-8 text-center">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="splash-screen"
+                                src="https://user-images.githubusercontent.com/78201887/174718632-9003f746-ae5d-42d2-bda7-fca54086eab8.png">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="splash-screen"
+                                src="https://user-images.githubusercontent.com/78201887/174718629-f9a3ba8b-5592-48a9-86f2-a7b6c282d157.png">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="splash-screen"
+                                src="https://user-images.githubusercontent.com/78201887/174718623-bb4c93d1-9d59-4310-9aae-50b5e22ad410.png">
+                        </div>
+                    </div>
+
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
+
+
+            <div class="col-md-8 align-self-center">
+                <h1 class="mb-5 mt-4  text-center">BE-Safe || SOS Emergency App</h1>
+                <p class="">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore aspernatur rerum facere quidem
+                    voluptas iure porro adipisci quaerat ipsam quia, asperiores eius fugiat modi qui nobis assumenda,
+                    nisi veniam? Vero totam saepe consequuntur mollitia culpa a quis dignissimos! Obcaecati illum itaque
+                    sequi quibusdam recusandae consectetur perferendis. Eaque tempora quam quo obcaecati ullam, ipsum
+                    officiis eius? Doloribus delectus saepe vel, ut ipsam animi. Quia animi quaerat, aut, veniam quasi
+                    expedita molestiae cumque doloribus, pariatur ipsa nemo neque excepturi tempora nesciunt laborum sed
+                    distinctio? Harum iure, ullam saepe, illo in odio autem possimus odit, atque corrupti dicta. Ducimus
+                    ut impedit esse corporis. Impedit, incidunt voluptatem. Voluptatem fugiat consectetur cupiditate
+                    iusto provident, earum voluptatibus tempora facere maxime deleniti fuga beatae et? Quia, quis
+                    molestiae.
+                </p>
+
+                <div class="container-fluid mt-5 download-link">
+                    <h2 class="text-center p-3">Under Developement Soon Available on </h2>
+                    <div class="row vendors">
+                        <div class="col-sm-6 text-center mt-3 mt-sm-0">
+                            <img src="./assets/playstore-img.png" height="60px" width="auto">
+                        </div>
+                        <div class="col-sm-6 text-center mt-3 mt-sm-0">
+                            <img src="./assets/appstore-img.png" height="60px" width="auto">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid second">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./assets/sumant1.jpg" class="d-flex text-center founders" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="text-black">System Architect & UI Head</h5>
+                        <p class="text-black">Face of Be-Safe, decides the app architect and workflow</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/ketan.png" class="d-flex text-center founders" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="text-black">Backend & API Head</h5>
+                        <p class="text-black">Manages and controls the backend system </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/prathamesh.jpg" class="d-flex text-center founders" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="text-black">Database Manager</h5>
+                        <p class="text-black">CRUDs Database</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+
+<footer>
+    <div class="container-fluid align-bottom bg-dark">
+        <p class="text-white text-center mt-3 mb-0 p-2"> &copy 2022 • Sumant Dusane | Ketan Bhoye | Prathamesh Patil
+        </p>
+    </div>
+</footer>
+
+</html>

@@ -1,0 +1,35 @@
+body {
+  background-color: #dddddd;
+  font-family: "Ubuntu", "Poppins";
+  box-sizing: border-box;
+}
+body .navbar {
+  background-color: #630074;
+}
+body .navbar .logo {
+  height: 80px;
+  width: auto;
+}
+body .navbar .nav-item {
+  color: white;
+  font-weight: 700;
+}
+body .main {
+  padding: 25px;
+}
+body .main .splash-screen {
+  height: 75vh;
+}
+body .main .download-link {
+  background-color: #eeeeee;
+  padding: 5px;
+  border-radius: 12px;
+}
+body .main .download-link .vendors {
+  margin-bottom: 10px;
+}
+body .founders {
+  width: auto;
+  height: 50vh;
+  border-radius: 5px;
+}/*# sourceMappingURL=main.css.map */

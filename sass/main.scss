@@ -1,0 +1,56 @@
+$fontPrimary: 'Ubuntu';
+$fontSecondary: 'Poppins';
+$colorSecondary: #dddddd;
+$colorPrimary: #eeeeee;
+$colorAccent: #630074;
+
+body {
+    background-color: $colorSecondary;
+    font-family: $fontPrimary, $fontSecondary;
+    box-sizing: border-box;
+
+    .navbar {
+        background-color: $colorAccent;
+
+
+        .logo {
+            height: 80px;
+            width: auto;
+        }
+
+        .nav-item {
+            color: white;
+            font-weight: 700;
+        }
+
+    }
+
+
+
+    .main {
+        padding: 25px;
+
+        .splash-screen {
+            height: 75vh;
+        }
+
+        .download-link {
+            background-color: $colorPrimary;
+            padding: 5px;
+            border-radius: 12px;
+
+            .vendors {
+                margin-bottom: 10px;
+            }
+
+        }
+    }
+
+    .founders {
+        width: auto;
+        height: 50vh;
+        border-radius: 5px;
+    }
+
+
+}
